@@ -426,3 +426,23 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+/baka/k2Engine/
+/baka/k2EngineLow/
+/baka/tools/
+# Visual Studioのキャッシュ
+**/.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/ipch/
+ 
+# ビルド生成物
+**/*.obj
+**/*.pch
+**/*.pdb
+**/*.ilk
+**/*.idb
+**/*.tlog
+**/*.dll
+**/*.exe
